@@ -256,3 +256,16 @@ Harmony hook `MapWorldMgr` 构造函数 → MonoMod DMD 编译失败 → `Events
 ## License
 
 MIT（文档与方法论）；游戏本体与原文数值版权归 guigugame 所有。
+
+---
+
+## 仓库导览
+
+| 路径 | 内容 |
+|---|---|
+| `REPRODUCE.md` | 从零复现手册（步骤+预期输出+故障对照表） |
+| `docs/timeline.md` | 完整调试时间线（一天半全复盘） |
+| `docs/samples/` | 真实导出示例（可读版生涯大事 + 命令会话记录） |
+| `src/` | DebugAgent 全部源码 + 编译脚本 + 解析器测试 harness |
+| `tools/` | 反射探针、编译器级签名验证器 |
+| `reference/` | 工坊参考 mod 源码与资源清单 |
